@@ -1,0 +1,113 @@
+Test Cases JavaScript:
+Question 3:
+
+Test 1:
+Input:
+Home Alone
+Home Alone 2
+Schitt's Creek
+
+
+Console:
+Input first title: Home Alone
+Input second title: Home Alone 2
+Input third movie: Schitt's Creek
+
+Comparing Home Alone to Home Alone 2: Lost in New York
+Similarity Score: 21
+
+Comparing Home Alone to Schitt's Creek
+Similarity Score: 1
+
+Comparing Home Alone 2: Lost in New York to Schitt's Creek
+Similarity Score: 1
+
+Comparing Home Alone to Home Alone 2: Lost in New York to Schitt's Creek
+Similarity Score: 7.666666666666667
+Input your birthday in form (MM DD): 03 04
+From these casts, you share birthdays with:
+1: Catherine O'Hara
+
+
+===========================================================================
+Test 2:
+Input:
+I Love Lucy
+Hunted
+Bates Motel
+
+Console:
+Input first title: I Love Lucy
+Input second title: Hunted
+Input third movie: Bates Motel
+
+Comparing I Love Lucy to The Hunted
+Similarity Score: 0
+
+Comparing I Love Lucy to Bates Motel
+Similarity Score: 0
+
+Comparing The Hunted to Bates Motel
+Similarity Score: 0
+
+Comparing I Love Lucy to The Hunted to Bates Motel
+Similarity Score: 0
+Input your birthday in form (MM DD): 08 06
+From these casts, you share birthdays with:
+1: Vera Farmiga
+2: Lucille Ball
+
+===========================================================================
+Test 3:
+Input:
+Raiders of the Lost Ark
+Indiana Jones and the Temple of Doom
+Indiana Jones and the Last Crusade
+09 09
+
+Console:
+Input first title: Raiders of the Lost Ark
+Input second title: Indiana Jones and the Temple of Doom
+Input third movie: Indiana Jones and the Last Crusade
+
+Comparing Indiana Jones and the Raiders of the Lost Ark to Indiana Jones and the Temple of Doom
+Similarity Score: 2
+
+Comparing Indiana Jones and the Raiders of the Lost Ark to Indiana Jones and the Last Crusade
+Similarity Score: 5
+
+Comparing Indiana Jones and the Temple of Doom to Indiana Jones and the Last Crusade
+Similarity Score: 2
+
+Comparing Indiana Jones and the Raiders of the Lost Ark to Indiana Jones and the Temple of Doom to Indiana Jones and the Last Crusade
+Similarity Score: 3
+Input your birthday in form (MM DD): 09 09
+You do not share a birthday with anyone in these casts
+
+===========================================================================
+Test 3:
+Input:
+Friends
+Friends
+Friends
+05 28
+
+Console:
+Input first title: Friends
+Input second title: Friends
+Input third movie: Friends
+
+Comparing Friends to Friends
+Similarity Score: 100
+
+Comparing Friends to Friends
+Similarity Score: 100
+
+Comparing Friends to Friends
+Similarity Score: 100
+
+Comparing Friends to Friends to Friends
+Similarity Score: 100
+Input your birthday in form (MM DD): 05 28
+From these casts, you share birthdays with:
+1: James Michael Tyler

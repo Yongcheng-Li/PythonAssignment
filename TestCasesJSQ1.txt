@@ -1,0 +1,135 @@
+Test Cases JavaScript:
+Question 1:
+
+Test 1:
+Arrays:
+let userSelection = ['A', 'A', 'R', 'P', 'A', 'A', 'A', 'P', 'A', 'P', 'A', 'A', 'P', 'X'];
+let dogInput = ['Spot, 15.5, 4', 'Rufus, 9, 3', 'Rufus', 'Boney, 12, 3', 'Lassie, 11.54, 5', 'Clifford, 20, 2', 'Astro, 6, 7', 'AirBud, 12, 3', 'Cujo, 9, 6'];
+let ageInput = ['4', '10', '11', '2', '7', '6', '12'];
+
+
+Output:
+Welcome to the Dog Kennel Manager Application!
+Adding Spot to the Kennel
+Added Successfully!
+You owe $305.42
+
+
+Adding Rufus to the Kennel
+Added Successfully!
+You owe $88.67
+
+
+Removing Rufus from the Kennel
+Successful Removal!
+
+
+Name: Spot		Weight: 15.5		Days: 4		Senior: false
+
+
+Adding Boney to the Kennel
+Added Successfully!
+You owe $184.75
+
+
+Adding Lassie to the Kennel
+Added Successfully!
+You owe $296.11
+
+
+Adding Clifford to the Kennel
+Added Successfully!
+You owe $197.04
+
+
+Name: Spot		Weight: 15.5		Days: 4		Senior: false
+Name: Boney		Weight: 12		Days: 3		Senior: true
+Name: Lassie		Weight: 11.54		Days: 5		Senior: true
+Name: Clifford		Weight: 20		Days: 2		Senior: false
+
+
+Adding Astro to the Kennel
+Added Successfully!
+You owe $137.93
+
+
+Name: Spot		Weight: 15.5		Days: 4		Senior: false
+Name: Boney		Weight: 12		Days: 3		Senior: true
+Name: Lassie		Weight: 11.54		Days: 5		Senior: true
+Name: Clifford		Weight: 20		Days: 2		Senior: false
+Name: Astro		Weight: 6		Days: 7
+
+
+Adding AirBud to the Kennel
+There is not enough room in the kennel.
+
+
+Adding Cujo to the Kennel
+Added Successfully!
+You owe $177.34
+
+
+Name: Spot		Weight: 15.5		Days: 4		Senior: false
+Name: Boney		Weight: 12		Days: 3		Senior: true
+Name: Lassie		Weight: 11.54		Days: 5		Senior: true
+Name: Clifford		Weight: 20		Days: 2		Senior: false
+Name: Astro		Weight: 6		Days: 7
+Name: Cujo		Weight: 9		Days: 6
+
+
+
+
+Thank you for using the Dog Kennel Manager Appilcation!
+
+
+
+
+
+
+===========================================================================
+Test 2:
+Arrays:
+let userSelection = ['A', 'A', 'R', 'P', 'R', 'P', 'X'];
+let dogInput = ['Spot, 15.5, 4', 'Rufus, 12, 3', 'Spot', 'Spot'];
+let ageInput = ['4', '10'];
+
+
+Output:
+Welcome to the Dog Kennel Manager Application!
+Adding Spot to the Kennel
+Added Successfully!
+You owe $305.42
+
+
+Adding Rufus to the Kennel
+Added Successfully!
+You owe $184.75
+
+
+Removing Spot from the Kennel
+Successful Removal!
+
+
+Name: Rufus		Weight: 12		Days: 3		Senior: true
+
+
+Removing Spot from the Kennel
+Removal Failed!
+
+
+Name: Rufus		Weight: 12		Days: 3		Senior: true
+
+
+
+
+Thank you for using the Dog Kennel Manager Appilcation!
+
+
+
+
+
+===========================================================================
+Test 3:
+Arrays:
+
+Output:
