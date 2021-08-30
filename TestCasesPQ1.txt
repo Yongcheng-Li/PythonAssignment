@@ -1,0 +1,304 @@
+Test Cases Python:
+Question 1:
+
+Test 1:
+Input:
+A
+Spot1
+15
+1
+1
+A
+Spot2
+15
+1
+1
+A
+Spot3
+15
+1
+1
+A 
+Spot4
+15
+1
+1
+A
+Spot5
+15
+1
+1
+A 
+Spot6
+15
+1
+1
+R
+Spot5
+A
+SmallSpot
+4
+1
+A
+Spot6
+15
+1
+1
+X
+
+Output:
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+A
+Please Input the Dog's Name:
+Spot1
+Please Input the Dog's Weight:
+15
+Please Input the number of days the Dog will stay:
+1
+Please Input the Dog's age:
+1
+Spot1 was added successfully!
+You owe $76.98
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+A
+Please Input the Dog's Name:
+Spot2
+Please Input the Dog's Weight:
+15
+Please Input the number of days the Dog will stay:
+1
+Please Input the Dog's age:
+1
+Spot2 was added successfully!
+You owe $76.98
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+A
+Please Input the Dog's Name:
+Spot3
+Please Input the Dog's Weight:
+15
+Please Input the number of days the Dog will stay:
+1
+Please Input the Dog's age:
+1
+Spot3 was added successfully!
+You owe $76.98
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+A 
+Please Input the Dog's Name:
+Spot4
+Please Input the Dog's Weight:
+15
+Please Input the number of days the Dog will stay:
+1
+Please Input the Dog's age:
+1
+Spot4 was added successfully!
+You owe $76.98
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+A
+Please Input the Dog's Name:
+Spot5
+Please Input the Dog's Weight:
+15
+Please Input the number of days the Dog will stay:
+1
+Please Input the Dog's age:
+1
+Spot5 was added successfully!
+You owe $76.98
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+A 
+Please Input the Dog's Name:
+Spot6
+Please Input the Dog's Weight:
+15
+Please Input the number of days the Dog will stay:
+1
+Please Input the Dog's age:
+1
+Sorry, there is not enough room in the kennel
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+R
+Input the name of the dog you wish to remove:
+Spot5
+Removing Spot5 from the kennel
+Successful removal
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+A
+Please Input the Dog's Name:
+SmallSpot
+Please Input the Dog's Weight:
+4
+Please Input the number of days the Dog will stay:
+1
+SmallSpot was added successfully!
+You owe $13.14
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+A
+Please Input the Dog's Name:
+Spot6
+Please Input the Dog's Weight:
+15
+Please Input the number of days the Dog will stay:
+1
+Please Input the Dog's age:
+1
+Sorry, there is not enough room in the kennel
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+X
+Thank you for using the program!
+
+
+
+
+
+===========================================================================
+Test 2:
+Input:
+A
+Spot
+15.5
+4
+4
+A
+Rufus
+12
+3
+10
+R
+Spot
+P
+R
+Spot
+P
+X
+
+Output:
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+A
+Please Input the Dog's Name:
+Spot
+Please Input the Dog's Weight:
+15.5
+Please Input the number of days the Dog will stay:
+4
+Please Input the Dog's age:
+4
+Spot was added successfully!
+You owe $318.18
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+A
+Please Input the Dog's Name:
+Rufus
+Please Input the Dog's Weight:
+12
+Please Input the number of days the Dog will stay:
+3
+Please Input the Dog's age:
+10
+Rufus was added successfully!
+You owe $177.34
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+R
+Input the name of the dog you wish to remove:
+Spot
+Removing Spot from the kennel
+Successful removal
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+P
+Name: Rufus	Weight: 12.0	Days: 3	Senior: True
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+R
+Input the name of the dog you wish to remove:
+Spot
+Removing Spot from the kennel
+Removal failed, could not find dog
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+P
+Name: Rufus	Weight: 12.0	Days: 3	Senior: True
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+X
+Thank you for using the program!
+
+
+
+
+
+===========================================================================
+Test 3:
+Input:
+A
+Rufus
+9
+4
+A
+Boney
+10
+4
+4
+A
+Lassie
+10
+4
+10
+X
+
+Output:
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+A
+Please Input the Dog's Name:
+Rufus
+Please Input the Dog's Weight:
+9
+Please Input the number of days the Dog will stay:
+4
+Rufus was added successfully!
+You owe $118.23
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+A
+Please Input the Dog's Name:
+Boney
+Please Input the Dog's Weight:
+10
+Please Input the number of days the Dog will stay:
+4
+Please Input the Dog's age:
+4
+Boney was added successfully!
+You owe $205.27
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+A
+Please Input the Dog's Name:
+Lassie
+Please Input the Dog's Weight:
+10
+Please Input the number of days the Dog will stay:
+4
+Please Input the Dog's age:
+10
+Lassie was added successfully!
+You owe $197.04
+
+Make A Selection: Add a Dog (A), Remove a Dog (R), Print Kennel List (P), Exit Program (X)
+X
+Thank you for using the program!

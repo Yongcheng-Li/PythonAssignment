@@ -1,0 +1,21 @@
+﻿G0001NB,Fredericton Gardens,5,20,12.5,0.3,0.55,3,2,FALSE
+G0002NB,Saint John Flowerbeds,7,25,15,0.2,0.6,2,3,FALSE
+G0001NS,Halifax Gardens,10,20,17.5,0.3,0.55,1,4,FALSE
+G0001PE,Charlottetown Gardens,5,25,20,0.4,0.5,5,5,FALSE
+G0002PE,Summerside Meadows,7,20,22.5,0.15,0.4,4,6,FALSE
+G0001NL,St.Johns Flowers,10,25,25,0.24,0.6,3,5,FALSE
+G0002NL,Flowers in Labrador,10,20,27.5,0.23,0.49,2,4,FALSE
+G0001QC,Fleur de Montreal,7,20,30,0.22,0.48,1,3,FALSE
+G0001ON,Ottawa Fields,5,25,32.5,0.21,0.5,5,4,FALSE
+G0002ON,Toronto Meadows,5,20,35,0.2,0.45,4,5,FALSE
+G0003ON,London Gardens,5,25,37.5,0.19,0.45,3,6,FALSE
+G0001MB,Winnipeg Meadows,5,20,40,0.18,0.4,2,7,FALSE
+G0001SK,Regina Gardens,7,25,42.5,0.17,0.8,1,8,FALSE
+G0002SK,Saskatoon Gardens,7,20,45,0.16,0.6,1,9,FALSE
+G0001AB,Calgary Fields,7,20,47.5,0.15,0.75,2,10,FALSE
+G0002AB,Edmonton Meadows,5,25,50,0.14,0.63,3,9,FALSE
+G0001BC,Vancouver Meadows,10,20,52.5,0.13,0.38,4,8,FALSE
+G0002BC,Victoria Gardens,10,25,55,0.12,0.7,5,7,FALSE
+G0001YT,Whitehorse Fields,10,20,57.5,0.11,0.7,6,6,FALSE
+G0001NT,Yellowknife Plot,5,25,60,0.1,0.7,7,5,FALSE
+G0001NU,Iqaluit Greenhouse,5,20,62.5,0,0.8,0,0,FALSE

@@ -1,0 +1,16 @@
+R
+G0001NB
+R
+G0002NB
+R
+G0001NS
+R
+G0002NS
+O
+E
+Alphabet.txt
+A
+E
+Cost.txt
+C
+X

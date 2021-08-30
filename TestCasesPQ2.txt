@@ -1,0 +1,224 @@
+Test Cases Python:
+Question 2:
+
+Test 1:
+Input:
+Hello, hello, hello! Hope you have a good night!
+R
+Hello
+Bye
+R
+hello
+bye
+I
+11
+night
+P
+D
+X
+
+Output:
+Hello, hello, hello! Hope you have a good night!
+
+Make a selection:
+	R: Replace a Word
+	I: Replace a Word at a given index
+	D: Print the Dictionary
+	P: Print the Paragraph
+	C: Print the Most Common Word
+	X: Exit the program
+R
+
+Input the word you would like to replace:
+Hello
+Input the word you want to use as the replacement:
+Bye
+A total of 1 replacement(s) have been made.
+
+Make a selection:
+	R: Replace a Word
+	I: Replace a Word at a given index
+	D: Print the Dictionary
+	P: Print the Paragraph
+	C: Print the Most Common Word
+	X: Exit the program
+R
+
+Input the word you would like to replace:
+hello
+Input the word you want to use as the replacement:
+bye
+A total of 2 replacement(s) have been made.
+
+Make a selection:
+	R: Replace a Word
+	I: Replace a Word at a given index
+	D: Print the Dictionary
+	P: Print the Paragraph
+	C: Print the Most Common Word
+	X: Exit the program
+I
+
+Input an index:
+11
+Input the word you want to use as the replacement:
+night
+
+Make a selection:
+	R: Replace a Word
+	I: Replace a Word at a given index
+	D: Print the Dictionary
+	P: Print the Paragraph
+	C: Print the Most Common Word
+	X: Exit the program
+P
+Bye, bye, bye! Hope you have a good night! 
+
+Make a selection:
+	R: Replace a Word
+	I: Replace a Word at a given index
+	D: Print the Dictionary
+	P: Print the Paragraph
+	C: Print the Most Common Word
+	X: Exit the program
+D
+,->[1, 3]
+!->[5, 12]
+Hope->[6]
+you->[7]
+have->[8]
+a->[9]
+good->[10]
+Bye->[0]
+bye->[2, 4]
+night->[11]
+
+Make a selection:
+	R: Replace a Word
+	I: Replace a Word at a given index
+	D: Print the Dictionary
+	P: Print the Paragraph
+	C: Print the Most Common Word
+	X: Exit the program
+X
+Thank you for using the program!
+
+===========================================================================
+Test 2:
+Input:
+Hello... Hello... Good bye... Good bye...
+C
+X
+
+Output:
+Please input a paragraph:
+Hello... Hello... Good bye... Good bye...
+
+Make a selection:
+	R: Replace a Word
+	I: Replace a Word at a given index
+	D: Print the Dictionary
+	P: Print the Paragraph
+	C: Print the Most Common Word
+	X: Exit the program
+C
+
+
+Most common words are:['Hello', 'Good', 'bye']
+
+Make a selection:
+	R: Replace a Word
+	I: Replace a Word at a given index
+	D: Print the Dictionary
+	P: Print the Paragraph
+	C: Print the Most Common Word
+	X: Exit the program
+X
+Thank you for using the program!
+
+===========================================================================
+Test 3:
+Input:
+80 days around the world, we’ll find a pot of gold just sitting where the rainbow’s ending. Time — we’ll fight against the time, and we’ll fly on the white wings of the wind. 80 days around the world, no we won’t say a word before the ship is really back. Round, round, all around the world. Round, all around the world. Round, all around the world. Round, all around the world. 
+P
+D
+X
+
+Output:
+Please input a paragraph:
+80 days around the world, we’ll find a pot of gold just sitting where the rainbow’s ending. Time — we’ll fight against the time, and we’ll fly on the white wings of the wind. 80 days around the world, no we won’t say a word before the ship is really back. Round, round, all around the world. Round, all around the world. Round, all around the world. Round, all around the world. 
+
+Make a selection:
+	R: Replace a Word
+	I: Replace a Word at a given index
+	D: Print the Dictionary
+	P: Print the Paragraph
+	C: Print the Most Common Word
+	X: Exit the program
+P
+80 days around the world, we’ ll find a pot of gold just sitting where the rainbow’ s ending. Time— we’ ll fight against the time, and we’ ll fly on the white wings of the wind.80 days around the world, no we won’ t say a word before the ship is really back. Round, round, all around the world. Round, all around the world. Round, all around the world. Round, all around the world. 
+
+Make a selection:
+	R: Replace a Word
+	I: Replace a Word at a given index
+	D: Print the Dictionary
+	P: Print the Paragraph
+	C: Print the Most Common Word
+	X: Exit the program
+D
+8->[0, 47]
+0->[1, 48]
+days->[2, 49]
+around->[3, 50, 74, 81, 88, 95]
+the->[4, 18, 31, 40, 44, 51, 63, 75, 82, 89, 96]
+world->[5, 52, 76, 83, 90, 97]
+,->[6, 33, 53, 70, 72, 79, 86, 93]
+we->[7, 26, 35, 55]
+’->[8, 20, 27, 36, 57]
+ll->[9, 28, 37]
+find->[10]
+a->[11, 60]
+pot->[12]
+of->[13, 43]
+gold->[14]
+just->[15]
+sitting->[16]
+where->[17]
+rainbow->[19]
+s->[21]
+ending->[22]
+.->[23, 46, 68, 77, 84, 91, 98]
+Time->[24]
+—->[25]
+fight->[29]
+against->[30]
+time->[32]
+and->[34]
+fly->[38]
+on->[39]
+white->[41]
+wings->[42]
+wind->[45]
+no->[54]
+won->[56]
+t->[58]
+say->[59]
+word->[61]
+before->[62]
+ship->[64]
+is->[65]
+really->[66]
+back->[67]
+Round->[69, 78, 85, 92]
+round->[71]
+all->[73, 80, 87, 94]
+
+Make a selection:
+	R: Replace a Word
+	I: Replace a Word at a given index
+	D: Print the Dictionary
+	P: Print the Paragraph
+	C: Print the Most Common Word
+	X: Exit the program
+X
+Thank you for using the program!

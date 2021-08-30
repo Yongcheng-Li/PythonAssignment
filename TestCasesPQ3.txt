@@ -1,0 +1,223 @@
+Test Cases Python:
+Question 3:
+
+Gardens.csv
+G0001NB,Fredericton Gardens,5,20,12.5,0.3,0.55,3,2,FALSE
+G0002NB,Saint John Flowerbeds,7,25,15,0.2,0.6,2,3,FALSE
+G0001NS,Halifax Gardens,10,20,17.5,0.3,0.55,1,4,FALSE
+G0001PE,Charlottetown Gardens,5,25,20,0.4,0.5,5,5,FALSE
+G0002PE,Summerside Meadows,7,20,22.5,0.15,0.4,4,6,FALSE
+G0001NL,St.Johns Flowers,10,25,25,0.24,0.6,3,5,FALSE
+G0002NL,Flowers in Labrador,10,20,27.5,0.23,0.49,2,4,FALSE
+G0001QC,Fleur de Montreal,7,20,30,0.22,0.48,1,3,FALSE
+G0001ON,Ottawa Fields,5,25,32.5,0.21,0.5,5,4,FALSE
+G0002ON,Toronto Meadows,5,20,35,0.2,0.45,4,5,FALSE
+G0003ON,London Gardens,5,25,37.5,0.19,0.45,3,6,FALSE
+G0001MB,Winnipeg Meadows,5,20,40,0.18,0.4,2,7,FALSE
+G0001SK,Regina Gardens,7,25,42.5,0.17,0.8,1,8,FALSE
+G0002SK,Saskatoon Gardens,7,20,45,0.16,0.6,1,9,FALSE
+G0001AB,Calgary Fields,7,20,47.5,0.15,0.75,2,10,FALSE
+G0002AB,Edmonton Meadows,5,25,50,0.14,0.63,3,9,FALSE
+G0001BC,Vancouver Meadows,10,20,52.5,0.13,0.38,4,8,FALSE
+G0002BC,Victoria Gardens,10,25,55,0.12,0.7,5,7,FALSE
+G0001YT,Whitehorse Fields,10,20,57.5,0.11,0.7,6,6,FALSE
+G0001NT,Yellowknife Plot,5,25,60,0.1,0.7,7,5,FALSE
+G0001NU,Iqaluit Greenhouse,5,20,62.5,0,0.8,0,0,FALSE
+
+
+Test 1:
+GardenInput.txt:
+A
+G0003NB,Fleur de Moncton,4,19,12.5,0.4,0.5,4,3,FALSE
+E
+Alphabet.txt
+A
+E
+Cost.txt
+C
+O
+R
+G0001NB
+S
+SavedData.csv
+X
+
+
+
+After Running:
+Alphabet.txt:
+Total Cost of Project: $370,465.49
+G0001AB,Calgary Fields,$25,804.18
+G0001PE,Charlottetown Gardens,$7,230.61
+G0002AB,Edmonton Meadows,$26,020.70
+G0003NB,Fleur de Moncton,$3,744.84
+G0001QC,Fleur de Montreal,$8,801.70
+G0002NL,Flowers in Labrador,$7,168.51
+G0001NB,Fredericton Gardens,$3,577.04
+G0001NS,Halifax Gardens,$5,138.29
+G0001NU,Iqaluit Greenhouse,$35,547.61
+G0003ON,London Gardens,$12,325.76
+G0001ON,Ottawa Fields,$11,811.65
+G0001SK,Regina Gardens,$28,244.67
+G0002NB,Saint John Flowerbeds,$4,984.30
+G0002SK,Saskatoon Gardens,$20,434.91
+G0001NL,St.Johns Flowers,$9,105.96
+G0002PE,Summerside Meadows,$5,226.56
+G0002ON,Toronto Meadows,$9,984.83
+G0001BC,Vancouver Meadows,$17,933.23
+G0002BC,Victoria Gardens,$33,879.74
+G0001YT,Whitehorse Fields,$40,340.63
+G0001MB,Winnipeg Meadows,$10,246.94
+G0001NT,Yellowknife Plot,$42,912.82
+
+Cost.txt:
+Total Cost of Project: $370,465.49
+G0001NT,Yellowknife Plot,$42,912.82
+G0001YT,Whitehorse Fields,$40,340.63
+G0001NU,Iqaluit Greenhouse,$35,547.61
+G0002BC,Victoria Gardens,$33,879.74
+G0001SK,Regina Gardens,$28,244.67
+G0002AB,Edmonton Meadows,$26,020.70
+G0001AB,Calgary Fields,$25,804.18
+G0002SK,Saskatoon Gardens,$20,434.91
+G0001BC,Vancouver Meadows,$17,933.23
+G0003ON,London Gardens,$12,325.76
+G0001ON,Ottawa Fields,$11,811.65
+G0001MB,Winnipeg Meadows,$10,246.94
+G0002ON,Toronto Meadows,$9,984.83
+G0001NL,St.Johns Flowers,$9,105.96
+G0001QC,Fleur de Montreal,$8,801.70
+G0001PE,Charlottetown Gardens,$7,230.61
+G0002NL,Flowers in Labrador,$7,168.51
+G0002PE,Summerside Meadows,$5,226.56
+G0001NS,Halifax Gardens,$5,138.29
+G0002NB,Saint John Flowerbeds,$4,984.30
+G0003NB,Fleur de Moncton,$3,744.84
+G0001NB,Fredericton Gardens,$3,577.04
+
+
+SavedData.csv:
+G0002NB,Saint John Flowerbeds,7.0,25.0,15.0,0.2,0.6,2.0,3.0,False,4984.303239238035,
+G0001NS,Halifax Gardens,10.0,20.0,17.5,0.3,0.55,1.0,4.0,False,5138.289887932585,
+G0001PE,Charlottetown Gardens,5.0,25.0,20.0,0.4,0.5,5.0,5.0,False,7230.613954559132,
+G0002PE,Summerside Meadows,7.0,20.0,22.5,0.15,0.4,4.0,6.0,False,5226.558456032801,
+G0001NL,St.Johns Flowers,10.0,25.0,25.0,0.24,0.6,3.0,5.0,False,9105.955818236527,
+G0002NL,Flowers in Labrador,10.0,20.0,27.5,0.23,0.49,2.0,4.0,False,7168.512666409867,
+G0001QC,Fleur de Montreal,7.0,20.0,30.0,0.22,0.48,1.0,3.0,False,8801.701693192828,
+G0001ON,Ottawa Fields,5.0,25.0,32.5,0.21,0.5,5.0,4.0,True,14000,
+G0002ON,Toronto Meadows,5.0,20.0,35.0,0.2,0.45,4.0,5.0,False,9984.826343539517,
+G0003ON,London Gardens,5.0,25.0,37.5,0.19,0.45,3.0,6.0,True,14000,
+G0001MB,Winnipeg Meadows,5.0,20.0,40.0,0.18,0.4,2.0,7.0,False,10246.943045328699,
+G0001SK,Regina Gardens,7.0,25.0,42.5,0.17,0.8,1.0,8.0,True,14000,
+G0002SK,Saskatoon Gardens,7.0,20.0,45.0,0.16,0.6,1.0,9.0,True,14000,
+G0001AB,Calgary Fields,7.0,20.0,47.5,0.15,0.75,2.0,10.0,True,14000,
+G0002AB,Edmonton Meadows,5.0,25.0,50.0,0.14,0.63,3.0,9.0,True,14000,
+G0001BC,Vancouver Meadows,10.0,20.0,52.5,0.13,0.38,4.0,8.0,True,14000,
+G0002BC,Victoria Gardens,10.0,25.0,55.0,0.12,0.7,5.0,7.0,True,14000,
+G0001YT,Whitehorse Fields,10.0,20.0,57.5,0.11,0.7,6.0,6.0,True,14000,
+G0001NT,Yellowknife Plot,5.0,25.0,60.0,0.1,0.7,7.0,5.0,True,14000,
+G0001NU,Iqaluit Greenhouse,5.0,20.0,62.5,0.0,0.8,0.0,0.0,True,14000,
+G0003NB,Fleur de Moncton,4.0,19.0,12.5,0.4,0.5,4.0,3.0,False,3744.842930917845,
+
+
+
+===========================================================================
+Test 2:
+GardenInput.txt:
+O
+A
+G0004YT,Dawson City,4,50,100,0.4,0.5,8,5,FALSE
+S
+SavedData.csv
+X
+
+
+SavedData.csv:
+G0001NB,Fredericton Gardens,5.0,20.0,12.5,0.3,0.55,3.0,2.0,False,3577.041221983146,
+G0002NB,Saint John Flowerbeds,7.0,25.0,15.0,0.2,0.6,2.0,3.0,False,4984.303239238035,
+G0001NS,Halifax Gardens,10.0,20.0,17.5,0.3,0.55,1.0,4.0,False,5138.289887932585,
+G0001PE,Charlottetown Gardens,5.0,25.0,20.0,0.4,0.5,5.0,5.0,False,7230.613954559132,
+G0002PE,Summerside Meadows,7.0,20.0,22.5,0.15,0.4,4.0,6.0,False,5226.558456032801,
+G0001NL,St.Johns Flowers,10.0,25.0,25.0,0.24,0.6,3.0,5.0,False,9105.955818236527,
+G0002NL,Flowers in Labrador,10.0,20.0,27.5,0.23,0.49,2.0,4.0,False,7168.512666409867,
+G0001QC,Fleur de Montreal,7.0,20.0,30.0,0.22,0.48,1.0,3.0,False,8801.701693192828,
+G0001ON,Ottawa Fields,5.0,25.0,32.5,0.21,0.5,5.0,4.0,True,14000,
+G0002ON,Toronto Meadows,5.0,20.0,35.0,0.2,0.45,4.0,5.0,False,9984.826343539517,
+G0003ON,London Gardens,5.0,25.0,37.5,0.19,0.45,3.0,6.0,True,14000,
+G0001MB,Winnipeg Meadows,5.0,20.0,40.0,0.18,0.4,2.0,7.0,False,10246.943045328699,
+G0001SK,Regina Gardens,7.0,25.0,42.5,0.17,0.8,1.0,8.0,True,14000,
+G0002SK,Saskatoon Gardens,7.0,20.0,45.0,0.16,0.6,1.0,9.0,True,14000,
+G0001AB,Calgary Fields,7.0,20.0,47.5,0.15,0.75,2.0,10.0,True,14000,
+G0002AB,Edmonton Meadows,5.0,25.0,50.0,0.14,0.63,3.0,9.0,True,14000,
+G0001BC,Vancouver Meadows,10.0,20.0,52.5,0.13,0.38,4.0,8.0,True,14000,
+G0002BC,Victoria Gardens,10.0,25.0,55.0,0.12,0.7,5.0,7.0,True,14000,
+G0001YT,Whitehorse Fields,10.0,20.0,57.5,0.11,0.7,6.0,6.0,True,14000,
+G0001NT,Yellowknife Plot,5.0,25.0,60.0,0.1,0.7,7.0,5.0,True,14000,
+G0001NU,Iqaluit Greenhouse,5.0,20.0,62.5,0.0,0.8,0.0,0.0,True,14000,
+G0004YT,Dawson City,4.0,50.0,100.0,0.4,0.5,8.0,5.0,False,120472.56639472982,
+
+
+
+===========================================================================
+Test 3:
+GardenInput.txt:
+R
+G0001NB
+R
+G0002NB
+R
+G0001NS
+R
+G0002NS
+O
+E
+Alphabet.txt
+A
+E
+Cost.txt
+C
+X
+
+
+After running:
+Alphabet.txt:
+Total Cost of Project: $211,765.11
+G0001AB,Calgary Fields,$14,000.00
+G0001PE,Charlottetown Gardens,$7,230.61
+G0002AB,Edmonton Meadows,$14,000.00
+G0001QC,Fleur de Montreal,$8,801.70
+G0002NL,Flowers in Labrador,$7,168.51
+G0001NU,Iqaluit Greenhouse,$14,000.00
+G0003ON,London Gardens,$14,000.00
+G0001ON,Ottawa Fields,$14,000.00
+G0001SK,Regina Gardens,$14,000.00
+G0002SK,Saskatoon Gardens,$14,000.00
+G0001NL,St.Johns Flowers,$9,105.96
+G0002PE,Summerside Meadows,$5,226.56
+G0002ON,Toronto Meadows,$9,984.83
+G0001BC,Vancouver Meadows,$14,000.00
+G0002BC,Victoria Gardens,$14,000.00
+G0001YT,Whitehorse Fields,$14,000.00
+G0001MB,Winnipeg Meadows,$10,246.94
+G0001NT,Yellowknife Plot,$14,000.00
+
+Cost.txt:
+Total Cost of Project: $211,765.11
+G0001ON,Ottawa Fields,$14,000.00
+G0003ON,London Gardens,$14,000.00
+G0001SK,Regina Gardens,$14,000.00
+G0002SK,Saskatoon Gardens,$14,000.00
+G0001AB,Calgary Fields,$14,000.00
+G0002AB,Edmonton Meadows,$14,000.00
+G0001BC,Vancouver Meadows,$14,000.00
+G0002BC,Victoria Gardens,$14,000.00
+G0001YT,Whitehorse Fields,$14,000.00
+G0001NT,Yellowknife Plot,$14,000.00
+G0001NU,Iqaluit Greenhouse,$14,000.00
+G0001MB,Winnipeg Meadows,$10,246.94
+G0002ON,Toronto Meadows,$9,984.83
+G0001NL,St.Johns Flowers,$9,105.96
+G0001QC,Fleur de Montreal,$8,801.70
+G0001PE,Charlottetown Gardens,$7,230.61
+G0002NL,Flowers in Labrador,$7,168.51
+G0002PE,Summerside Meadows,$5,226.56
