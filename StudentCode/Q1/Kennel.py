@@ -1,4 +1,4 @@
-from Dog import Dog
+
 from SmallDog import SmallDog
 from BigDog import BigDog
 
