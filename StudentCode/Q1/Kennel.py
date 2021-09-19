@@ -1,4 +1,3 @@
-from os import name
 from Dog import Dog
 from SmallDog import SmallDog
 from BigDog import BigDog
@@ -18,9 +17,9 @@ def AddDog():
         x = BigDog(name, weight, days, age)
 
     global unit
-    if unit + x.getU() <= 15:
+    if unit + x.unit <= 15:
         dogs.append(x)
-        unit += x.getU()
+        unit += x.unit
         print(x.name + " is added successfully!\nYou owe $" + str(x.getCost()) + '\n')
     else:
         print("Sorry, not enough space for " + x.name + '\n')
@@ -31,7 +30,7 @@ def RemoveDog():
     global unit
     for i in dogs:
         if i.name == name:
-            unit -= i.getU()
+            unit -= i.unit
             dogs.remove(i)
             print("Successful removal\n")
             return
@@ -42,10 +41,7 @@ def RemoveDog():
 def printList():
     print("Dogs currently here are:")
     for i in dogs:
-        if i.isSenior():
-            print("Name: " + i.name + "  Weight: " + i.weight + "  Days: " + i.days + "  Senior: True")
-        else:
-            print("Name: " + i.name + "  Weight: " + i.weight + "  Days: " + i.days + "  Senior: False")
+        print("Name: " + i.name + "  Weight: " + i.weight + "  Days: " + i.days + "  Senior: " + str(i.isSenior()))
     print()
 
 

@@ -4,6 +4,11 @@ class Dog:
         self.name = name
         self.weight = weight
         self.days = days
-        
+
+    
+    def isSenior(self):
+        return False
+          
+
         
 

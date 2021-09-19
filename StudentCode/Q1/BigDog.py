@@ -6,11 +6,6 @@ class BigDog(Dog):
         self.unit = 3
         self.age = age
     
-    def getName(self):
-        return self.name
-    
-    def getU(self):
-        return self.unit
 
     def isSenior(self):
         if int(self.age) > 9:
